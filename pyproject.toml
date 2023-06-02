@@ -1,0 +1,16 @@
+
+[project]
+name = "chicago neighborhood watch"
+version = "0.1.0"
+description = "This will be our attempt to create a machine learning model to predict crime in chicago, though we realize that this won't truly be accurate it should be a fun time."
+authors = [
+    {name = "None", email = "None"},
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
